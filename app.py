@@ -4,7 +4,8 @@ import pandas as pd
 # Load the dictionary CSV
 @st.cache_data
 def load_dictionary():
-    return pd.read_csv("C:/Users/prema/OneDrive/Documents/Mundari Translator/data/mundari_dictionary (1).csv")
+    return pd.read_csv("mundari_dictionary.csv")
+
 
 dictionary_df = load_dictionary()
 
